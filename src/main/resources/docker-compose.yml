@@ -1,0 +1,24 @@
+version: '3'
+services:
+  mongodb_3:
+    image: mongo
+    container_name: mongodb_3
+    ports:
+      - "27020:27017"
+    networks:
+      - app-3
+
+  healthcare-poc-app_3:
+    image: healthcare-poc3
+    ports:
+      - "8083:8080"
+    environment:
+      - spring.data.mongodb.uri=mongodb://mongodb_3:27017/trainingPoc
+    networks:
+      - app-3
+    depends_on:
+      - mongodb_3
+
+networks:
+  app-3:
+    driver: bridge
