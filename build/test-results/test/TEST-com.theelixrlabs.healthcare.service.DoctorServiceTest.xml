@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.theelixrlabs.healthcare.service.DoctorServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-09T04:44:58" hostname="EXR-IT-06" time="0.25">
+  <properties/>
+  <testcase name="getDoctorsByName_Success()" classname="com.theelixrlabs.healthcare.service.DoctorServiceTest" time="0.245"/>
+  <testcase name="getDoctorsByName_ReturnsNotFoundException()" classname="com.theelixrlabs.healthcare.service.DoctorServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

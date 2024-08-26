@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.theelixrlabs.healthcare.controller.DoctorControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-09T04:44:56" hostname="EXR-IT-06" time="0.735">
+  <properties/>
+  <testcase name="getDoctorsByName_Success()" classname="com.theelixrlabs.healthcare.controller.DoctorControllerTest" time="0.696"/>
+  <testcase name="getDoctorsByName_ReturnsNotFoundException()" classname="com.theelixrlabs.healthcare.controller.DoctorControllerTest" time="0.034"/>
+  <system-out><![CDATA[2024-08-09T10:14:56.985+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:56.986+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:56.987+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-09T10:14:57.293+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:57.293+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:57.293+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.theelixrlabs.healthcare.controller.PatientControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-08-09T04:44:58" hostname="EXR-IT-06" time="0.191">
+  <properties/>
+  <testcase name="deletePatientById_Failure()" classname="com.theelixrlabs.healthcare.controller.PatientControllerTest" time="0.127"/>
+  <testcase name="getPatientById_Success()" classname="com.theelixrlabs.healthcare.controller.PatientControllerTest" time="0.023"/>
+  <testcase name="getPatientById_Failure()" classname="com.theelixrlabs.healthcare.controller.PatientControllerTest" time="0.017"/>
+  <testcase name="deletePatientById_Success()" classname="com.theelixrlabs.healthcare.controller.PatientControllerTest" time="0.018"/>
+  <system-out><![CDATA[2024-08-09T10:14:58.422+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:58.422+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:58.422+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-09T10:14:58.522+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:58.522+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:58.522+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-09T10:14:58.544+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:58.545+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:58.545+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-08-09T10:14:58.563+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-08-09T10:14:58.564+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-09T10:14:58.564+05:30  INFO 19812 --- [HealthCare-POC] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
